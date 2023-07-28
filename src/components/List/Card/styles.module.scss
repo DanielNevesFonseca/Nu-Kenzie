@@ -1,0 +1,38 @@
+.transactionCard {
+  border: 1px solid var(--color-grey-2);
+  background-color: var(--color-grey-1);
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 12px;
+  gap: 16px;
+  border-radius: 4px;
+  position: relative;
+
+  button {
+    width: max-content;
+  }
+
+  @media (min-width: 1024px){
+    h4 {
+      position: absolute;
+      right: 12px;
+      top: 12px;
+    }
+
+    button {
+      position: absolute;
+      right: 12px;
+      top: 36px;
+    }
+  }
+}
+
+.greenBorder {
+  border-left: 5px solid var(--color-secondary);
+}
+
+.redBorder {
+  border-left: 5px solid var(--color-primary);
+
+}

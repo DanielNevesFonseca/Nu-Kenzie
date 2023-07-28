@@ -1,0 +1,13 @@
+.section {
+  margin: 0 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  max-width: 100%;
+
+  ul {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+}

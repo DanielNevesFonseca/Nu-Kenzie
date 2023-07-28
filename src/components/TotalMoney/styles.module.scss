@@ -1,0 +1,18 @@
+.boxText {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.totalMoneySection {
+  margin: 0 16px;
+  padding: 16px;
+  border: 1px solid var(--color-grey-2);
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+
+  &>h3 {
+    color: var(--color-primary);
+  }
+}
